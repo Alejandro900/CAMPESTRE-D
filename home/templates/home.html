@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPESTRE D</title>
+    <link rel="shortcut icon" href="{% static 'images/arbol.png' %}"" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+<body>
+    <header class="header">
+        <section class="logo">
+            <img src="" alt="">
+            <span>CAMPESTRE D</span>
+        </section>
+        <section class="menu-opciones">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/posts">Servicio Zoocial</a></li>
+                <li><a href="/posts">Cuidados Ambientales</a></li>
+                <li><a href="posts">Centro Deportivo</a></li>
+                <li><a href="/posts">Feria Micro-empresarial</a></li>
+                <li><a href="/posts">Afiliados</a></li>
+
+            </ul>
+        </section>
+        <section class="controles-usuarios">
+            <ion-icon name="search-sharp"></ion-icon>
+            <button id="btn-sign-up"></button>
+        </section>
+        </div>
+        </div>
+        <section class="text-header">
+            <h1>CAMPESTRE D</h1>
+            <h1>La naturaleza nunca se apresura, y sin embargo, todo se logra</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-0.00,49.87 C150.00,149.67 349.21,-49.87 500.00,49.87 L500.00,149.67 L-0.00,149.67 Z"
+                    style="stroke: none; fill: rgb(255, 255, 255);"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestros Proyectos</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="{% static 'images/fondo1.jpeg' %}"" alt="" class="imagen-about-us">
+                <div class="contenido-texto">
+                    <h3><span>1</span>Servicio Zoocial</h3>
+                    <p>Representamos a la comunidad generando un apoyo del cual los peluditos se pueden beneficiar en el entorno en el que se encuentran. 
+                    </p>
+                    <h3><span>2</span>Servicio Ambiental</h3>
+                    <p>Representamos el orden y el cuidado del medio ambiente en el sector, creando así un ambiente amigable y un lugar seguro para todos</p>
+                    <h3><span>3</span>Servicio MicroEmpresarial</h3>
+                    <p>Fomentamos el comercio en nuestra comunidad con el fin de dar a conocer los negocios locales y ayudarlos a crecer</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Comunidad</h2>
+                <div class="galeria-portafolio">
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-1.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Servicios Ambientales</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-2.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Cuidado de peluditos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-3.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Limpienza</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-4.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Amor</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-5.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Amistad</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-6.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Tolerancia</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-7.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Alegria</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="{% static 'images/-8.jpg' %}" alt="">
+                        <div class="hover-galeria">
+                            <img src="logo.jpg" alt="">
+                            <p>Hogar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Representantes de la junta de acción comunal</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="{% static 'images/perfil1.jpg' %}" alt="">
+                    <div class="contenido-texto-cards">
+                        <h4>Orlando</h4>
+                        <p>Representante de la comunidad (Presidente) y de la junta de acción comunal</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="{% static 'images/perfil2.jpg' %}" alt="">
+                    <div class="contenido-texto-cards">
+                        <h4>Edwin</h4>
+                        <p>Representante de la comunidad (Vicepresidente) segundo al mando</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros aportes a la comunidad</h2>
+                <div class="servicio-contenedor">
+                    <div class="servicio-individual">
+                        <img src="Fondo.jpg" alt="">
+                        <h4>Cuidados Ambientales</h4>
+                        <p>Nuestro servicio se enfoca en procurar un ambiente agradable y sano, garantizando la seguridad de la comunidad.</p>
+                    </div>
+                    <div class="servicio-individual">
+                        <img src="Fondo.jpg" alt="">
+                        <h4>Servicio Zoocial</h4>
+                        <p>Ayudamos a los peluditos a conseguir un hogar, proporcionándoles un lugar agradable, la comida necesaria y garantizando un entorno saludable para ellos.</p>
+                    </div>
+                    <div class="servicio-individual">
+                        <img src="Fondo.jpg" alt="">
+                        <h3>Micro-empresas</h3>
+                        <p>Garantizamos el comercio de nuestra comunidad, para fomentar el crecimiento industrial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="contenedor-footer">
+                <div class="contentenido-footer">
+                    <h4>Phone-1</h4>
+                    <p>3182375392</p>
+                </div>
+                <div class="contentenido-footer">
+                    <h4>Phone-2</h4>
+                    <p>3116186263</p>
+                </div>
+                <div class="contentenido-footer">
+                    <h4>Email</h4>
+                    <p>camprested@gmail.com</p>
+                </div>
+                <div class="contentenido-footer">
+                    <h4>Location</h4>
+                    <p>Cra. 8 #20a-23, Dosquebradas - Campestre D</p>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Jorge Alejandro | Campestre D</h2>
+        </footer>
+    </main>
+</body>
+
+</html>
